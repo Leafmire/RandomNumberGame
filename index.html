@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="blank"></div>
+    <div class="card-container">
+      <div class="card u-clearfix">
+        <div class="card-body">
+          <h1 class="card-title">Random Number Game</h1>
+          <h2 class="js-maxNum"></h2>
+          <input
+            type="range"
+            class="js-slider slider"
+            value="0"
+            step="1"
+            min="0"
+            max="200"
+          />
+          <form class="js-guessNum">
+            <h3>
+              Guess the number:
+              <input type="text" class="js-myNum" />
+              <input type="submit" class="playBtn" value="play!" />
+            </h3>
+          </form>
+          <h3 class="js-comNum"></h3>
+          <h2 class="js-result"></h2>
+          <h2 class="js-submitCount"></h2>
+        </div>
+      </div>
+      <div class="card-shadow"></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
